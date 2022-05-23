@@ -1,6 +1,38 @@
-# Tasks
+# Todo List App 
 
-Tasks is a simplistic Go webapp to manage tasks, I built this tool to manage tasks which I wanted to do, there are many good kanban style boards, but I felt they were a bit too heavyweight for my taste. Also I wanted to learn the Go webapp development.
+This is a dockerized version of the [original task management app](https://github.com/hewhitetulip/Tasks).
+
+This is a simplistic Go webapp to manage tasks.
+
+
+
+
+
+## Getting Started
+
+### Step 1. Clone the repository
+
+```
+git clone https://github.com/ajeetraina/todolist-go
+```
+
+### Step 3. Build Docker Image
+
+```
+docker build -t todolist-app-go
+```
+
+### Step 4. Run the Container
+
+
+````
+docker run -d -p 8081:8081 todolist-app-go
+```
+
+Open https://localhost:8081 to access the task management app on the web browser.
+
+
+## Without Docker
 
 How to use?
 ==================
